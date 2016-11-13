@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:weightSum="1"
+    android:background="#607D8B">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_email_black_24dp"/>
+        <TextView
+            android:id="@+id/sd_textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="25dp"
+            android:textColor="@color/colorBlanco"/>
+        </LinearLayout>
+
+    <EditText
+        android:id="@+id/sd_editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:ems="15"
+        android:hint="Ingresa datos aqui..."
+        android:textColorHint="@color/colorBlanco">
+
+        <requestFocus/>
+    </EditText>
+<Button
+    android:id="@+id/sd_btnClose"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="Close" />
+
+</LinearLayout>
